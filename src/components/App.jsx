@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PuffLoader from 'react-spinners/PuffLoader';
+import Home from '../pages';
 
 const override = {
   position: 'absolute',
@@ -11,7 +12,7 @@ const override = {
 
 function App() {
   // TODO: Change this to true, once development is finished
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -25,7 +26,7 @@ function App() {
         <>
           <img src='/img/logo.png' alt='CM Logo' className='loader-image' />
           <PuffLoader
-            color={'#F37A24'}
+            color={'#01bf71'}
             loading={loading}
             size={300}
             cssOverride={override}
@@ -33,7 +34,9 @@ function App() {
           />
         </>
       ) : (
-        <h1>Hello World</h1>
+        <>
+          <Home />
+        </>
       )}
     </div>
   );
