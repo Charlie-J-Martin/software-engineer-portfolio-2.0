@@ -12,7 +12,7 @@ const override = {
 
 function App() {
   // TODO: Change this to true, once development is finished
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
