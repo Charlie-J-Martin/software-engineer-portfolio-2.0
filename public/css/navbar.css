@@ -1,11 +1,11 @@
 .nav {
   background: #000;
-  height: 80px;
-  /* margin-top: -80px; */
+  /* height: 80px; */
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.25rem;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -33,13 +33,13 @@
   height: 80px;
   display: flex;
   align-items: center;
-  /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
 }
 
 .logo {
   height: 80px;
+  padding: 10px;
 }
 
 .mobile-icon {
@@ -89,4 +89,8 @@
 
 .nav-links:active {
   border-bottom: 3px solid #01bf71;
+}
+
+.nav-links:hover {
+  color: #01bf71;
 }
