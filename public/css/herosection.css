@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 90vh;
+  height: 95vh;
   position: relative;
   z-index: 1;
   padding-top: 80px;
@@ -105,7 +105,7 @@
 
 .hero-content p {
   margin-top: 24px;
-  color: rgba(255, 255, 255, 0.595);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
   text-align: left;
   max-width: 600px;
@@ -119,63 +119,6 @@
 @media screen and (max-width: 480px) {
   .hero-content p {
     font-size: 18px;
-  }
-}
-
-.scrolling-words-container {
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: 600;
-  padding-top: 30px;
-}
-
-.scrolling-words-box {
-  height: 3rem;
-  margin: auto;
-  text-align: center;
-  overflow: hidden;
-}
-.scrolling-words-box ul {
-  margin: 0 0.625rem;
-  padding: 0;
-}
-
-.primary-timer {
-  animation: scrollUp 9s infinite;
-}
-
-.frontend-timer {
-  animation: scrollUp 9s infinite;
-}
-
-.backend-timer {
-  animation: scrollUp 9s infinite;
-}
-
-.scrolling-words-box ul li {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  height: 3rem;
-  list-style: none;
-}
-@keyframes scrollUp {
-  15%,
-  25% {
-    transform: translateY(-20%);
-  }
-  40%,
-  50% {
-    transform: translateY(-40%);
-  }
-  65%,
-  75% {
-    transform: translateY(-60%);
-  }
-  90%,
-  100% {
-    transform: translateY(-80%);
   }
 }
 
@@ -194,6 +137,7 @@
   filter: grayscale(100%);
   z-index: 2;
   margin-top: 50%;
+  border-radius: 5px;
 }
 
 .hero-image:hover {

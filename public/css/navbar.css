@@ -1,6 +1,6 @@
 .nav {
   background: #000;
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,4 +88,8 @@
 
 .nav-links:active {
   border-bottom: 3px solid #01bf71;
+}
+
+.nav-links:hover {
+  color: #01bf71;
 }

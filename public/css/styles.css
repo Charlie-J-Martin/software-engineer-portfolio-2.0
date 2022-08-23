@@ -1,6 +1,8 @@
 @import 'navbar.css';
 @import 'sidebar.css';
 @import 'herosection.css';
+@import 'intro.css';
+@import 'subheading.css';
 
 * {
   box-sizing: border-box;
