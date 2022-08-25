@@ -1,0 +1,11 @@
+.projects-container {
+  height: max-content;
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  border: 1px solid red;
+  padding-top: 80px;
+}

@@ -3,6 +3,8 @@
 @import 'herosection.css';
 @import 'intro.css';
 @import 'subheading.css';
+@import 'projects.css';
+@import 'project.css';
 
 * {
   box-sizing: border-box;
