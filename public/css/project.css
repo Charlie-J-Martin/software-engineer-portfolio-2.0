@@ -46,7 +46,8 @@
 .technology-used {
   justify-content: center;
   justify-content: space-evenly;
-  padding-top: 2%;
+  padding-top: 0;
+  padding-bottom: 2%;
 }
 
 .technology-used h6 {
@@ -55,6 +56,16 @@
   font-size: 0.75rem;
   display: inline;
   padding: 0 2%;
+}
+
+.technology-subtitle {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #01bf71;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding-bottom: 1%;
+  padding-left: 1%;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +93,6 @@
   .project-image {
     width: 100%;
   }
-
 }
 
 @media (min-width: 1440px) {
@@ -106,5 +116,8 @@
   }
   .project-link-icons {
     height: 40px;
+  }
+  .technology-subtitle {
+    font-size: 1rem;
   }
 }
