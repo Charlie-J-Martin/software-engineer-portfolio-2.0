@@ -24,6 +24,9 @@ export const Project = (props) => {
               ></img>
             </a>
           </div>
+          <h6 className='technology-subtitle'>
+            Technologies you'll find here:
+          </h6>
           <div className='technology-used'>
             {props.technologiesUsed.map((technology) => (
               <h6>{technology}</h6>
