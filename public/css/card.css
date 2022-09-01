@@ -1,0 +1,79 @@
+.card-container {
+  height: 60vh;
+  position: relative;
+  border: 1px solid #01bf71;
+  width: 55vw;
+  overflow: hidden;
+}
+
+.card-image {
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+
+.card-image-active {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  animation: halfFadeOut ease;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+.card-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 12%;
+  width: inherit;
+  z-index: 1;
+  opacity: 0%;
+}
+
+.card-text-active {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 12%;
+  width: inherit;
+  z-index: 1;
+  opacity: 100%;
+  animation: fullFadeIn ease;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+.card-text-h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #01bf71;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.card-text-p {
+  padding: 0% 12.5%;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 2;
+}
+
+@keyframes halfFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fullFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

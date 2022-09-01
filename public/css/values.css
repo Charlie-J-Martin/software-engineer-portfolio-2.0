@@ -1,0 +1,50 @@
+.values-container {
+  height: 100vh;
+  background-color: #000000;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.values-text {
+  z-index: 3;
+  position: absolute;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.values-text p {
+  margin-top: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  text-align: center;
+}
+
+.coverflow-container {
+  height: max-content;
+  padding-top: 120px;
+}
+
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #01bf71;
+  opacity: 1;
+}
+
+/* target all bullets */
+span.swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+}
+
+span.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 60px !important;
+}
