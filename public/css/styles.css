@@ -5,6 +5,8 @@
 @import 'subheading.css';
 @import 'projects.css';
 @import 'project.css';
+@import 'values.css';
+@import 'card.css';
 
 * {
   box-sizing: border-box;
