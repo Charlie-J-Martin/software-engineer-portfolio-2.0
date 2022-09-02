@@ -15,12 +15,6 @@ const Values = () => {
     <>
       <div className='values-container'>
         <Subheading number='03.' name='Values' />
-        <div className='values-text'>
-          <p>
-            Alongside this showcase I wanted to share some of my key values of
-            being a Software Engineer.
-          </p>
-        </div>
         <div className='coverflow-container'>
           <Swiper
             navigation
@@ -37,7 +31,6 @@ const Values = () => {
             slidesPerView={2}
             centeredSlides={true}
             initialSlide={1}
-            style={{ height: '500px' }}
           >
             <SwiperSlide>
               {({ isActive }) => (
@@ -47,6 +40,7 @@ const Values = () => {
                   title={data[0].title}
                   description={data[0].description}
                   img={data[0].img}
+                  webImg={data[0].webImg}
                 />
               )}
             </SwiperSlide>
@@ -58,6 +52,7 @@ const Values = () => {
                   title={data[1].title}
                   description={data[1].description}
                   img={data[1].img}
+                  webImg={data[1].webImg}
                 />
               )}
             </SwiperSlide>
@@ -69,6 +64,7 @@ const Values = () => {
                   title={data[2].title}
                   description={data[2].description}
                   img={data[2].img}
+                  webImg={data[2].webImg}
                 />
               )}
             </SwiperSlide>

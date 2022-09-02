@@ -7,14 +7,22 @@ const intro = () => {
   return (
     <>
       <div className='intro-container'>
-        <Subheading number='01.' name='Introduction'/>
+        <Subheading number='01.' name='Introduction' />
         <div className='intro-text'>
           <p>
             Welcome to my software engineer showcase!
             <br />
             <br />
-            Here are some of the technologies that you will see while you're
-            here.
+            Below you can explore some of{' '}
+            <span className='key-word'>my projects</span> and a few{' '}
+            <span className='key-word'>core values</span> that resonate with me
+            as a Software Engineer.
+            <br />
+            <br />
+            Here are some of the <span className='key-word'>
+              technologies
+            </span>{' '}
+            that you will see while you're here.
           </p>
         </div>
         <div className='tech-container'>
