@@ -6,7 +6,7 @@
   justify-content: center;
   position: relative;
   z-index: 1;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -23,6 +23,12 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .values-text p {
+    font-size: 24px;
+  }
 }
 
 .coverflow-container {
@@ -46,5 +52,10 @@ span.swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: 60px !important;
+  bottom: 0px !important;
 }
+
+.swiper-wrapper{
+  padding-bottom: 30px;
+}
+

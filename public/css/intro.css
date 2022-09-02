@@ -12,7 +12,7 @@
 .intro-text {
   z-index: 3;
   position: absolute;
-  padding: 30px 24px;
+  padding: 0px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -22,7 +22,11 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
   text-align: center;
-  max-width: 600px;
+  max-width: 1000px;
+}
+
+.key-word{
+  color: #01bf71;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,7 +72,7 @@
 }
 
 .typescript {
-  top: 47%;
+  top: 49%;
   left: 5%;
 }
 
