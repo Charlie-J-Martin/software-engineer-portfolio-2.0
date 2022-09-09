@@ -1,0 +1,56 @@
+.contact-confirmation-container {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #01bf71;
+  animation: fullFadeIn ease;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.contact-confirmation-content {
+  text-align: center;
+  color: #01bf71;
+  margin: auto;
+}
+
+.contact-confirmation-content h2 {
+  font-weight: 300;
+  color: #01bf71;
+  font-size: 24px;
+  padding-bottom: 5%;
+}
+
+.check-icon {
+  color: #01bf71;
+}
+
+@media (min-width: 768px) {
+  .contact-confirmation-container {
+    height: 265px;
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-confirmation-container {
+    height: 500px;
+    width: 100%;
+    position: inherit;
+    left: 10%;
+  }
+}
+
+@keyframes fullFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
