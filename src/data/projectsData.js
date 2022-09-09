@@ -8,7 +8,7 @@ export const projectsData = [
       technologiesUsed: [
         "TypeScript", "React", "NodeJS", "GraphQL", "Express"
       ],
-      projectImage: "/img/formula-1.jpg"
+      projectImage: "/img/myProjects/formula-1.jpg"
     },
     {
         name: 'Amazon Price Checker',
@@ -19,7 +19,7 @@ export const projectsData = [
         technologiesUsed: [
           "TypeScript", "React", "NodeJS", "GraphQL", "Express"
         ],
-        projectImage: "/img/amazon-price-checker.jpg"
+        projectImage: "/img/myProjects/amazon-price-checker.jpg"
       },
       {
         name: 'Order up!',
@@ -30,7 +30,7 @@ export const projectsData = [
         technologiesUsed: [
           "TypeScript", "React", "NodeJS", "GraphQL", "Express"
         ],
-        projectImage: "/img/order-up.jpg"
+        projectImage: "/img/myProjects/order-up.jpg"
       },
       {
         name: 'My Cocktail Bar',
@@ -41,6 +41,6 @@ export const projectsData = [
         technologiesUsed: [
           "TypeScript", "React", "NodeJS", "GraphQL", "Express"
         ],
-        projectImage: "/img/my-cocktail-bar.jpg"
+        projectImage: "/img/myProjects/my-cocktail-bar.jpg"
       },
   ];

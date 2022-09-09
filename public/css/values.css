@@ -1,13 +1,10 @@
 .values-container {
   height: 100vh;
   background-color: #000000;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   justify-content: center;
   position: relative;
   z-index: 1;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  /* padding-bottom: 10px; */
 }
 
 .values-text {
@@ -55,7 +52,6 @@ span.swiper-horizontal > .swiper-pagination-bullets,
   bottom: 0px !important;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   padding-bottom: 30px;
 }
-

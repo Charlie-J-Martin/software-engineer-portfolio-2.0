@@ -4,16 +4,16 @@ export const data = [
     title: 'Collaboration',
     description:
       'Software Engineering can be like a team sport, it’s when everyone works together and helps each other great things can be done.',
-    img: '/img/collab.jpg',
-    webImg: '/img/collaboration-web.jpg',
+    img: '/img/values/collab.jpg',
+    webImg: '/img/values/collaboration-web.jpg',
   },
   {
     id: 1,
     title: 'Continuous Learning',
     description:
       'Technology is constantly evolving and as a result software engineers have to be ready to learn, adapt and grow.',
-    img: '/img/learning.jpg',
-    webImg: '/img/learning-web-2.jpg',
+    img: '/img/values/learning.jpg',
+    webImg: '/img/values/learning-web-2.jpg',
   },
 
   {
@@ -21,7 +21,7 @@ export const data = [
     title: 'Critical Thinking',
     description:
       'It’s important to think ahead when conceptualising, applying and analysing tasks and pivoting when needed.',
-    img: '/img/thinking.jpg',
-    webImg: '/img/thinking-web.jpg',
+    img: '/img/values/thinking.jpg',
+    webImg: '/img/values/thinking-web.jpg',
   },
 ];

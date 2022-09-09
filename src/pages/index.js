@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import Intro from '../components/Intro';
 import Projects from '../components/Projects';
 import Values from '../components/Values';
+import Contact from '../components/Contact';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Home = () => {
       <Intro />
       <Projects />
       <Values />
+      <Contact />
     </>
   );
 };
