@@ -6,6 +6,7 @@ import Intro from '../components/Intro';
 import Projects from '../components/Projects';
 import Values from '../components/Values';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const Home = () => {
       <Projects />
       <Values />
       <Contact />
+      <Footer />
     </>
   );
 };

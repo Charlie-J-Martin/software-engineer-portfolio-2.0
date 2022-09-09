@@ -9,6 +9,7 @@
 @import 'card.css';
 @import 'contact.css';
 @import 'contactconfirmation.css';
+@import 'footer.css';
 
 * {
   box-sizing: border-box;
