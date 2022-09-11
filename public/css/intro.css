@@ -300,13 +300,13 @@ h3 {
     flex-direction: column;
   }
   .typescript {
-    top: 47%;
-    left: 10%;
+    top: 57%;
+    left: 6%;
   }
 
   .javascript {
-    top: 47%;
-    right: 10%;
+    top: 57%;
+    right: 6%;
   }
 
   .nodejs {

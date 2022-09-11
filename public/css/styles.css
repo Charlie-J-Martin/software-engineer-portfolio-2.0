@@ -10,6 +10,7 @@
 @import 'contact.css';
 @import 'contactconfirmation.css';
 @import 'footer.css';
+@import ' hover.css';
 
 * {
   box-sizing: border-box;
