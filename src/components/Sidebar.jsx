@@ -14,29 +14,31 @@ const Sidebar = ({ isOpen, toggle }) => {
 
   return (
     <>
-      <div
-        className='sidebar-container'
-        isOpen={isOpen}
-        onClick={toggle}
-        style={customStyle}
-      >
-        <div className='icon' onClick={toggle}>
-          <FaTimes className={'close-icon'} />
+      <nav>
+        <div
+          className='sidebar-container'
+          isOpen={isOpen}
+          onClick={toggle}
+          style={customStyle}
+        >
+          <div className='icon' onClick={toggle}>
+            <FaTimes className={'close-icon'} />
+          </div>
+          <div className='sidebar-wrapper'>
+            <ul className='sidebar-menu'>
+              <a className='sidebar-link' href='#' onClick={toggle}>
+                Projects
+              </a>
+              <a className='sidebar-link' href='#' onClick={toggle}>
+                Values
+              </a>
+              <a className='sidebar-link' href='#' onClick={toggle}>
+                Contact Me
+              </a>
+            </ul>
+          </div>
         </div>
-        <div className='sidebar-wrapper'>
-          <ul className='sidebar-menu'>
-            <a className='sidebar-link' href='#' onClick={toggle}>
-              Projects
-            </a>
-            <a className='sidebar-link' href='#' onClick={toggle}>
-              Values
-            </a>
-            <a className='sidebar-link' href='#' onClick={toggle}>
-              Contact Me
-            </a>
-          </ul>
-        </div>
-      </div>
+      </nav>
     </>
   );
 };

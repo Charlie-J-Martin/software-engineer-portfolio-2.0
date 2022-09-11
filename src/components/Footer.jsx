@@ -5,7 +5,6 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer>
         <div className='footer-container'>
           <BsFillArrowUpCircleFill
             color='black'
@@ -30,7 +29,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </footer>
     </>
   );
 };

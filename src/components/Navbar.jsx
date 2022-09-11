@@ -12,23 +12,25 @@ const Navbar = ({ toggle }) => {
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
           </div>
-          <div className='nav-menu'>
-            <div className='nav-item'>
-              <ul className='nav-links' href='#'>
-                Projects
-              </ul>
+          <nav>
+            <div className='nav-menu'>
+              <div className='nav-item'>
+                <ul className='nav-links' href='#'>
+                  Projects
+                </ul>
+              </div>
+              <div className='nav-item'>
+                <ul className='nav-links' href='#'>
+                  Values
+                </ul>
+              </div>
+              <div className='nav-item'>
+                <ul className='nav-links' href='#'>
+                  Contact Me
+                </ul>
+              </div>
             </div>
-            <div className='nav-item'>
-              <ul className='nav-links' href='#'>
-                Values
-              </ul>
-            </div>
-            <div className='nav-item'>
-              <ul className='nav-links' href='#'>
-                Contact Me
-              </ul>
-            </div>
-          </div>
+          </nav>
         </div>
       </div>
     </>
