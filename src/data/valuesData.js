@@ -4,7 +4,7 @@ export const data = [
     title: 'Collaboration',
     description:
       'Software Engineering can be like a team sport, it’s when everyone works together and helps each other great things can be done.',
-    img: '/img/values/collab.jpg',
+    img: '/img/values/collaboration.jpg',
     webImg: '/img/values/collaboration-web.jpg',
   },
   {
@@ -13,7 +13,7 @@ export const data = [
     description:
       'Technology is constantly evolving and as a result software engineers have to be ready to learn, adapt and grow.',
     img: '/img/values/learning.jpg',
-    webImg: '/img/values/learning-web-2.jpg',
+    webImg: '/img/values/learning-web.jpg',
   },
 
   {

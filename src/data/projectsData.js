@@ -19,7 +19,7 @@ export const projectsData = [
         technologiesUsed: [
           "TypeScript", "React", "NodeJS", "GraphQL", "Express"
         ],
-        projectImage: "/img/myProjects/amazon-price-checker.jpg"
+        projectImage: "/img/myProjects/amazon.jpg"
       },
       {
         name: 'Order up!',
