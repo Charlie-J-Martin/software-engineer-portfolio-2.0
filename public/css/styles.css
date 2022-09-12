@@ -32,10 +32,8 @@
 body {
   background-color: black;
   height: 100%;
-  overflow: auto;
 }
 
 html {
-  overflow: hidden;
   height: 100%;
 }

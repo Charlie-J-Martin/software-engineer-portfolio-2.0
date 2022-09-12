@@ -31,17 +31,17 @@ const Contact = () => {
   };
   return (
     <>
-      <div className='contact-container'>
+      <div className='contact-container' id='contact'>
         <Subheading number='04.' name='Contact' />
         <div className='contact-intro-form-container'>
           <div className='contact-intro-container'>
-          <div className='container drawer'>
-            <p>
-              <span className='key-word'>Get in touch!</span> <br />
-              I’m always lookings for new opportunities and adventures, even if
-              you want to just say hi or ask some questions! I will try to get
-              back to you as soon as I can.
-            </p>
+            <div className='container drawer'>
+              <p>
+                <span className='key-word'>Get in touch!</span> <br />
+                I’m always lookings for new opportunities and adventures, even
+                if you want to just say hi or ask some questions! I will try to
+                get back to you as soon as I can.
+              </p>
             </div>
             <div className='contact-image-container'>
               <img

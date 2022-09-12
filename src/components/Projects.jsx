@@ -21,7 +21,7 @@ function createProject(project) {
 const Projects = () => {
   return (
     <>
-      <div className='projects-container'>
+      <div className='projects-container' id='projects'>
         <Subheading number='02.' name='Projects' />
         {projectsData.map(createProject)}
       </div>
