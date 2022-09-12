@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Sidebar = ({ isOpen, toggle }) => {
   let customStyle = {};
@@ -26,14 +27,44 @@ const Sidebar = ({ isOpen, toggle }) => {
           </div>
           <div className='sidebar-wrapper'>
             <ul className='sidebar-menu'>
-              <a className='sidebar-link' href='#' onClick={toggle}>
-                Projects
+              <a className='sidebar-link'>
+                <Link
+                  activeClass='active'
+                  to='projects'
+                  spy={true}
+                  offset={-80}
+                  smooth={true}
+                  duration={500}
+                  onClick={toggle}
+                >
+                  Projects
+                </Link>
               </a>
-              <a className='sidebar-link' href='#' onClick={toggle}>
-                Values
+              <a className='sidebar-link' >
+                <Link
+                  activeClass='active'
+                  to='values'
+                  spy={true}
+                  offset={-80}
+                  smooth={true}
+                  duration={500}
+                  onClick={toggle}
+                >
+                  Values
+                </Link>
               </a>
-              <a className='sidebar-link' href='#' onClick={toggle}>
-                Contact Me
+              <a className='sidebar-link'>
+                <Link
+                  activeClass='active'
+                  to='contact'
+                  spy={true}
+                  offset={-80}
+                  smooth={true}
+                  duration={500}
+                  onClick={toggle}
+                >
+                  Contact Me
+                </Link>
               </a>
             </ul>
           </div>
