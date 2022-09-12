@@ -13,7 +13,7 @@ SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 const Values = () => {
   return (
     <>
-      <div className='values-container'>
+      <div className='values-container' id='values'>
         <Subheading number='03.' name='Values' />
         <div className='coverflow-container'>
           <Swiper

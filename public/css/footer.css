@@ -27,6 +27,10 @@
   padding: 5px 2px 2px;
 }
 
+.arrow {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .footer-container h4 {
     font-size: 18px;
