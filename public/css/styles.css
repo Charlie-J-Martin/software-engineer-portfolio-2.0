@@ -11,6 +11,7 @@
 @import 'contactconfirmation.css';
 @import 'footer.css';
 @import ' hover.css';
+@import 'pagenotfound.css';
 
 * {
   box-sizing: border-box;
