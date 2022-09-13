@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import PuffLoader from 'react-spinners/PuffLoader';
 import Home from '../pages';
+import PageNotFound from './404-page';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 const override = {
   position: 'absolute',
@@ -35,7 +37,12 @@ function App() {
         </>
       ) : (
         <>
-          <Home />
+          <BrowserRouter>
+            <Routes>
+              <Route exact path='/' element={<Home />} />
+              <Route path="*" element={<PageNotFound />} />
+            </Routes>
+          </BrowserRouter>
         </>
       )}
     </div>

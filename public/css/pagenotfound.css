@@ -1,0 +1,64 @@
+.page-not-found-container {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.page-not-found-image {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  z-index: 0;
+  filter: opacity(40%);
+  overflow: hidden;
+}
+
+.page-not-found-text-container {
+  padding: 3%;
+}
+
+.page-not-found-text {
+  width: 100%;
+  color: #01bf71;
+  text-align: center;
+  font-weight: 300;
+  padding: 5% 0;
+  padding-bottom: 50%;
+}
+
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #01bf71;
+}
