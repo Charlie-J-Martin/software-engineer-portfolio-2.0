@@ -11,14 +11,14 @@ export const Project = (props) => {
           <div className='project-links'>
             <a href={props.github} target='_blank' rel='noreferrer'>
               <img
-                className='project-link-icons'
+                className='project-link-icons github'
                 src='/img/github.svg'
                 alt=''
               />
             </a>
             <a href={props.liveWebsite} target='_blank' rel='noreferrer'>
               <img
-                className='project-link-icons'
+                className='project-link-icons link'
                 src='/img/link.svg'
                 alt=''
               ></img>

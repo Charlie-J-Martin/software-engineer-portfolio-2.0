@@ -6,7 +6,7 @@ export const projectsData = [
       github: "https://github.com/Charlie-J-Martin",
       liveWebsite: "https://www.formula1.com/",
       technologiesUsed: [
-        "TypeScript", "React", "NodeJS", "GraphQL", "Express"
+        "TypeScript", "React", "NodeJS", "GraphQL"
       ],
       projectImage: "/img/myProjects/formula-1.jpg"
     },
@@ -17,7 +17,7 @@ export const projectsData = [
         github: "https://github.com/Charlie-J-Martin",
         liveWebsite: "https://www.formula1.com/",
         technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL", "Express"
+          "TypeScript", "React", "NodeJS", "GraphQL"
         ],
         projectImage: "/img/myProjects/amazon.jpg"
       },
@@ -28,7 +28,7 @@ export const projectsData = [
         github: "https://github.com/Charlie-J-Martin",
         liveWebsite: "https://www.formula1.com/",
         technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL", "Express"
+          "TypeScript", "React", "NodeJS", "GraphQL"
         ],
         projectImage: "/img/myProjects/order-up.jpg"
       },
@@ -39,7 +39,7 @@ export const projectsData = [
         github: "https://github.com/Charlie-J-Martin",
         liveWebsite: "https://www.formula1.com/",
         technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL", "Express"
+          "TypeScript", "React", "NodeJS", "GraphQL",
         ],
         projectImage: "/img/myProjects/my-cocktail-bar.jpg"
       },
