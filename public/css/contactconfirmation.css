@@ -10,6 +10,7 @@
   animation: fullFadeIn ease;
   animation-duration: 2s;
   animation-fill-mode: both;
+  transition: border 0.3s ease-in-out;
 }
 
 .contact-confirmation-content {
@@ -53,4 +54,8 @@
   100% {
     opacity: 1;
   }
+}
+
+.contact-confirmation-container:hover {
+  border: 5px solid #01bf71;
 }

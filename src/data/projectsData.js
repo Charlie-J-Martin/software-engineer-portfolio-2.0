@@ -1,46 +1,38 @@
 export const projectsData = [
-    {
-      name: 'Historical F1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet',
-      github: "https://github.com/Charlie-J-Martin",
-      liveWebsite: "https://www.formula1.com/",
-      technologiesUsed: [
-        "TypeScript", "React", "NodeJS", "GraphQL"
-      ],
-      projectImage: "/img/myProjects/formula-1.jpg"
-    },
-    {
-        name: 'Amazon Price Checker',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet',
-        github: "https://github.com/Charlie-J-Martin",
-        liveWebsite: "https://www.formula1.com/",
-        technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL"
-        ],
-        projectImage: "/img/myProjects/amazon.jpg"
-      },
-      {
-        name: 'Order up!',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet',
-        github: "https://github.com/Charlie-J-Martin",
-        liveWebsite: "https://www.formula1.com/",
-        technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL"
-        ],
-        projectImage: "/img/myProjects/order-up.jpg"
-      },
-      {
-        name: 'My Cocktail Bar',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui velit, viverra ut consequat a, cursus consequat est. Nulla sed varius lorem. Proin fringilla in libero eget malesuada Lorem ipsum dolor sit amet',
-        github: "https://github.com/Charlie-J-Martin",
-        liveWebsite: "https://www.formula1.com/",
-        technologiesUsed: [
-          "TypeScript", "React", "NodeJS", "GraphQL",
-        ],
-        projectImage: "/img/myProjects/my-cocktail-bar.jpg"
-      },
-  ];
+  {
+    name: 'Historical F1',
+    description: 'Coming soon...',
+    github: 'https://github.com/Charlie-J-Martin',
+    liveWebsite: 'https://www.formula1.com/',
+    technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
+    projectImage: '/img/myProjects/formula-1.jpg',
+    projectImageAltTag: 'Red Bull formula 1 car racing in Silverstone',
+  },
+  {
+    name: 'Amazon Price Checker',
+    description: 'Coming soon...',
+    github: 'https://github.com/Charlie-J-Martin',
+    liveWebsite: 'https://www.formula1.com/',
+    technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
+    projectImage: '/img/myProjects/amazon.jpg',
+    projectImageAltTag: 'Two Amazon delivery boxes on a table',
+  },
+  {
+    name: 'Order up!',
+    description: 'Coming soon...',
+    github: 'https://github.com/Charlie-J-Martin',
+    liveWebsite: 'https://www.formula1.com/',
+    technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
+    projectImage: '/img/myProjects/order-up.jpg',
+    projectImageAltTag: 'A chef holding a plate of food',
+  },
+  {
+    name: 'My Cocktail Bar',
+    description: 'Coming soon...',
+    github: 'https://github.com/Charlie-J-Martin',
+    liveWebsite: 'https://www.formula1.com/',
+    technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
+    projectImage: '/img/myProjects/my-cocktail-bar.jpg',
+    projectImageAltTag: 'A bartender pouring a shot of whiskey',
+  },
+];

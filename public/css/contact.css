@@ -1,12 +1,12 @@
 .contact-container {
   height: 100vh;
   position: relative;
-  padding: 90px 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .contact-intro-form-container {
   z-index: 3;
-  padding: 20px 0;
   margin: auto;
   align-items: center;
 }
@@ -19,6 +19,7 @@
   background: rgba(247, 247, 247, 0.154);
   backdrop-filter: blur(4.4px);
   border: 1px solid #01bf71;
+  transition: border 0.3s ease-in-out;
 }
 
 form {
@@ -26,6 +27,10 @@ form {
   margin: 5%;
   text-align: center;
   padding: 2.5%;
+}
+
+.form-container:hover {
+  border: 5px solid #01bf71;
 }
 
 input {
@@ -129,6 +134,7 @@ input:focus {
     width: 98%;
     padding: 2%;
     font-size: 24px;
+    height: 300px;
     margin: 0 1%;
     margin-bottom: 1%;
   }
@@ -143,18 +149,14 @@ input:focus {
     height: 80vh;
     z-index: 3;
     max-width: 70%;
-    padding-top: 80px;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
   }
   .contact-intro-container {
     z-index: 3;
-    padding: 0px 24px 24px;
     width: 100%;
-    height: 50vh;
-    text-align: center;
-    position: relative;
+    height: 600px;
     visibility: visible;
     overflow: visible;
   }

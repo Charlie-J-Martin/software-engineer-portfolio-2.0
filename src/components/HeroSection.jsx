@@ -21,10 +21,10 @@ const HeroSection = () => {
               <h1>Hi, my name is Charlie.</h1>
               <h2>Nice to meet you.</h2>
               <p>
-                I’m a backend software engineer who loves to solve problems and
+                I’m a backend Software Engineer who loves to solve problems and
                 making the impossible possible. I’m currently focused on
-                building a cutting edge backend system for supplying data at
-                Elsevier.
+                building a cutting edge backend system for supplying data to
+                various E-commerce stores at Elsevier.
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <img
               className='hero-image'
               src='/img/profile.jpeg'
-              alt='personal portrait'
+              alt='A man standing with dark hair'
             />
             <div className='hero-image-background'></div>
           </div>

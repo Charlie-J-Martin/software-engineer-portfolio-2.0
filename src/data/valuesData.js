@@ -6,6 +6,7 @@ export const data = [
       'Software Engineering can be like a team sport, it’s when everyone works together and helps each other great things can be done.',
     img: '/img/values/collaboration.jpg',
     webImg: '/img/values/collaboration-web.jpg',
+    imgAltTag: 'A group of people sitting around one laptop talking about code',
   },
   {
     id: 1,
@@ -14,6 +15,7 @@ export const data = [
       'Technology is constantly evolving and as a result software engineers have to be ready to learn, adapt and grow.',
     img: '/img/values/learning.jpg',
     webImg: '/img/values/learning-web.jpg',
+    imgAltTag: 'A group of people reading from a projector',
   },
 
   {
@@ -23,5 +25,6 @@ export const data = [
       'It’s important to think ahead when conceptualising, applying and analysing tasks and pivoting when needed.',
     img: '/img/values/thinking.jpg',
     webImg: '/img/values/thinking-web.jpg',
+    imgAltTag: 'A group of people planning an agile sprint',
   },
 ];

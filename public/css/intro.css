@@ -7,6 +7,7 @@
   position: relative;
   z-index: 1;
   padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .intro-text {
@@ -22,6 +23,7 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
   text-align: center;
+  font-weight: 300;
   max-width: 1000px;
 }
 
@@ -175,7 +177,7 @@ h3 {
   .intro-text {
     z-index: 3;
     position: absolute;
-    padding: 40px 24px;
+    padding: 60px 24px;
     display: flex;
     flex-direction: column;
   }
@@ -291,7 +293,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .intro-text {
     z-index: 3;
     position: absolute;

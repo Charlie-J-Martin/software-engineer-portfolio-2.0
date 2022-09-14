@@ -17,6 +17,7 @@ const Footer = () => {
             color='black'
             size={45}
             style={{ paddingLeft: '10px' }}
+            alt='An up arrow'
           />
         </div>
         <h4>Charlie Martin Production &copy; {currentYear}</h4>
@@ -26,14 +27,22 @@ const Footer = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <img className='social-logo' src='/img/github.svg' alt='' />
+            <img
+              className='social-logo'
+              src='/img/github.svg'
+              alt='The Github logo'
+            />
           </a>
           <a
             href={'https://www.linkedin.com/in/charlie-martin-617155153/'}
             target='_blank'
             rel='noreferrer'
           >
-            <img className='social-logo' src='/img/linkedin.svg' alt='' />
+            <img
+              className='social-logo'
+              src='/img/linkedin.svg'
+              alt='The LinkedIn logo'
+            />
           </a>
         </div>
       </div>
