@@ -12,7 +12,7 @@ const Navbar = ({ toggle }) => {
       <div className='nav'>
         <div className='nav-container'>
           <div className='nav-logo' onClick={toggleHome}>
-            <img className='logo' src='/img/logo.png' alt='' />
+            <img className='logo' src='/img/logo.png' alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters' />
           </div>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
                     activeClass='active'
                     to='projects'
                     spy={true}
-                    offset={-80}
+                    offset={-100}
                     smooth={true}
                     duration={500}
                   >
@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
                     activeClass='active'
                     to='values'
                     spy={true}
-                    offset={-80}
+                    offset={-100}
                     smooth={true}
                     duration={500}
                   >
@@ -53,7 +53,7 @@ const Navbar = ({ toggle }) => {
                     activeClass='active'
                     to='contact'
                     spy={true}
-                    offset={-80}
+                    offset={-100}
                     smooth={true}
                     duration={500}
                   >

@@ -32,7 +32,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   activeClass='active'
                   to='projects'
                   spy={true}
-                  offset={-80}
+                  offset={-100}
                   smooth={true}
                   duration={500}
                   onClick={toggle}
@@ -45,7 +45,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   activeClass='active'
                   to='values'
                   spy={true}
-                  offset={-80}
+                  offset={-100}
                   smooth={true}
                   duration={500}
                   onClick={toggle}
@@ -58,7 +58,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   activeClass='active'
                   to='contact'
                   spy={true}
-                  offset={-80}
+                  offset={-100}
                   smooth={true}
                   duration={500}
                   onClick={toggle}

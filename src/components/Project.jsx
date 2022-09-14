@@ -4,7 +4,11 @@ export const Project = (props) => {
   return (
     <>
       <div className='project-container'>
-        <img className='project-image' src={props.projectImage} alt='' />
+        <img
+          className='project-image'
+          src={props.projectImage}
+          alt={props.projectImageAltTag}
+        />
         <div className='project-text'>
           <h1 className='project-name'>{props.name}</h1>
           <p className='project-description'>{props.description}</p>
@@ -13,14 +17,14 @@ export const Project = (props) => {
               <img
                 className='project-link-icons github'
                 src='/img/github.svg'
-                alt=''
+                alt='The Github logo'
               />
             </a>
             <a href={props.liveWebsite} target='_blank' rel='noreferrer'>
               <img
                 className='project-link-icons link'
                 src='/img/link.svg'
-                alt=''
+                alt='A chain link logo representing a external link'
               ></img>
             </a>
           </div>

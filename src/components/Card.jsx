@@ -13,7 +13,7 @@ const Card = (props) => {
           <img
             className={props.isActive ? 'card-image-active' : 'card-image'}
             src={props.img}
-            alt=''
+            alt={props.imgAltTag}
           />
         </picture>
       </div>

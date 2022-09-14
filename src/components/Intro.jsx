@@ -11,7 +11,7 @@ const intro = () => {
         <div className='intro-text'>
           <div className='container drawer'>
             <p>
-              Welcome to my software engineer showcase!
+              Welcome to my Software Engineer showcase!
               <br />
               <br />
               Below you can explore some of{' '}
@@ -33,7 +33,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[0].imageURL}
-                alt=''
+                alt='TypeScript Logo'
               />
             </h3>
           </div>
@@ -43,7 +43,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[1].imageURL}
-                alt=''
+                alt='JavaScript Logo'
               />
             </h3>
           </div>
@@ -53,7 +53,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[2].imageURL}
-                alt=''
+                alt='NodeJS Logo'
               />
             </h3>
           </div>
@@ -63,7 +63,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[3].imageURL}
-                alt=''
+                alt='GraphQL Logo'
               />
             </h3>
           </div>
@@ -73,7 +73,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[4].imageURL}
-                alt=''
+                alt='React Logo'
               />
             </h3>
           </div>
@@ -83,7 +83,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[5].imageURL}
-                alt=''
+                alt='MongoDB Logo'
               />
             </h3>
           </div>
@@ -93,7 +93,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[6].imageURL}
-                alt=''
+                alt='CSS Logo'
               />
             </h3>
           </div>
@@ -103,7 +103,7 @@ const intro = () => {
               <img
                 className='technology-logo'
                 src={techData[7].imageURL}
-                alt=''
+                alt='HTML Logo'
               />
             </h3>
           </div>
