@@ -14,7 +14,7 @@ const override = {
 
 function App() {
   // TODO: Change this to true, once development is finished
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -40,7 +40,7 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route exact path='/' element={<Home />} />
-              <Route path="*" element={<PageNotFound />} />
+              <Route path='*' element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>
         </>
