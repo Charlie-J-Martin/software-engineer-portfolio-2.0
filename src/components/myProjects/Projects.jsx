@@ -1,7 +1,8 @@
 import React from 'react';
-import Subheading from './Subheading';
+import Subheading from '../subheading/Subheading';
 import { Project } from './Project';
-import { projectsData } from '../data/projectsData';
+import { projectsData } from '../../data/projectsData';
+import './projects.css'
 
 function createProject(project) {
   return (

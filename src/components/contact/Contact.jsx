@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
-import Subheading from './Subheading';
+import Subheading from '../subheading/Subheading';
 import emailjs from '@emailjs/browser';
 import ContactConfirmation from './ContactConfirmation';
+import './contact.css';
 
 const Contact = () => {
   // EmailJS

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import './navbar.css';
 
 const Navbar = ({ toggle }) => {
   const toggleHome = () => {
@@ -12,7 +13,11 @@ const Navbar = ({ toggle }) => {
       <div className='nav'>
         <div className='nav-container'>
           <div className='nav-logo' onClick={toggleHome}>
-            <img className='logo' src='/img/logo.png' alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters' />
+            <img
+              className='logo'
+              src='/img/logo.png'
+              alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters'
+            />
           </div>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />

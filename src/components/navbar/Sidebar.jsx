@@ -2,6 +2,7 @@
 import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import './sidebar.css';
 
 const Sidebar = ({ isOpen, toggle }) => {
   let customStyle = {};
@@ -40,7 +41,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   Projects
                 </Link>
               </a>
-              <a className='sidebar-link' >
+              <a className='sidebar-link'>
                 <Link
                   activeClass='active'
                   to='values'

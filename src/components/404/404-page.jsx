@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './pagenotfound.css';
 
 const PageNotFound = () => {
   return (
@@ -17,13 +18,13 @@ const PageNotFound = () => {
             <br />
             We can't seem to find the page you're looking for!
           </h3>
-        <div>
-          <Link to='/'>
-            <button type='button' className='button-41'>
-              Go back home!
-            </button>
-          </Link>
-        </div>
+          <div>
+            <Link to='/'>
+              <button type='button' className='button-41'>
+                Go back home!
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

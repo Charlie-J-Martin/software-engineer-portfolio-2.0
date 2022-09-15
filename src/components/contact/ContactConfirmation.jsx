@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsCheckCircleFill } from 'react-icons/bs';
+import './contactconfirmation.css'
 
 const ContactConfirmation = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 import { animateScroll as scroll } from 'react-scroll';
+import './footer.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
