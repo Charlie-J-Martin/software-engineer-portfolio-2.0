@@ -13,59 +13,59 @@ const Navbar = ({ toggle }) => {
       <div className='nav'>
         <div className='nav-container'>
           <div className='nav-logo' onClick={toggleHome}>
-            <img
-              className='logo'
-              src='/img/logo.png'
-              alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters'
-            />
+              <img
+                className='logo'
+                src='/img/logo.png'
+                alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters'
+              />
           </div>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
           </div>
           <nav>
             <div className='nav-menu'>
-              <div className='nav-item'>
-                <ul className='nav-links'>
-                  <Link
-                    activeClass='active'
-                    to='projects'
-                    spy={true}
-                    offset={-100}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <p className='nav-heading'>Projects</p>
-                  </Link>
-                </ul>
-              </div>
-              <div className='nav-item'>
-                <ul className='nav-links'>
-                  <Link
-                    activeClass='active'
-                    to='values'
-                    spy={true}
-                    offset={-100}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <p className='nav-heading'>Values</p>
-                  </Link>
-                </ul>
-              </div>
-              <div className='nav-item'>
-                <ul className='nav-links'>
-                  <Link
-                    activeClass='active'
-                    to='contact'
-                    spy={true}
-                    offset={-100}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <p className='nav-heading'>Contact Me</p>
-                  </Link>
-                </ul>
-              </div>
+                <div className='nav-item'>
+                  <ul className='nav-links'>
+                    <Link
+                      activeClass='active'
+                      to='projects'
+                      spy={true}
+                      offset={-100}
+                      smooth={true}
+                      duration={500}
+                    >
+                      <p className='nav-heading'>Projects</p>
+                    </Link>
+                  </ul>
+                </div>
+                <div className='nav-item'>
+                  <ul className='nav-links'>
+                    <Link
+                      activeClass='active'
+                      to='values'
+                      spy={true}
+                      offset={-100}
+                      smooth={true}
+                      duration={500}
+                    >
+                      <p className='nav-heading'>Values</p>
+                    </Link>
+                  </ul>
+                </div>
+                <div className='nav-item'>
+                  <ul className='nav-links'>
+                    <Link
+                      activeClass='active'
+                      to='contact'
+                      spy={true}
+                      offset={-100}
+                      smooth={true}
+                      duration={500}
+                    >
+                      <p className='nav-heading'>Contact Me</p>
+                    </Link>
+                  </ul>
+                </div>
             </div>
           </nav>
         </div>

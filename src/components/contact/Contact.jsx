@@ -3,6 +3,7 @@ import Subheading from '../subheading/Subheading';
 import emailjs from '@emailjs/browser';
 import ContactConfirmation from './ContactConfirmation';
 import './contact.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Contact = () => {
   // EmailJS
@@ -37,39 +38,50 @@ const Contact = () => {
         <div className='contact-intro-form-container'>
           <div className='contact-intro-container'>
             <div className='container drawer'>
-              <p>
-                <span className='key-word'>Get in touch!</span> <br />
-                I’m always lookings for new opportunities and adventures. Feel
-                free to drop me a message even if you want to just say hi or ask
-                some questions! I will try to get back to you as soon as I can.
-              </p>
+              <AnimationOnScroll
+                animateIn='animate__fadeInUp'
+                animateOnce='true'
+              >
+                <p>
+                  <span className='key-word'>Get in touch!</span> <br />
+                  I’m always lookings for new opportunities and adventures. Feel
+                  free to drop me a message even if you want to just say hi or
+                  ask some questions! I will try to get back to you as soon as I
+                  can.
+                </p>
+              </AnimationOnScroll>
             </div>
             <div className='contact-image-container'>
-              <img
-                className='contact-image'
-                src='/img/lettheadventurebegin.jpg'
-                alt='A man hold a cup of snow with the words "The Adventure Begins" on the front of the cup'
-              />
-              <div className='contact-image-background'></div>
+              <AnimationOnScroll
+                animateIn='animate__fadeInUp'
+                animateOnce='true'
+              >
+                <img
+                  className='contact-image'
+                  src='/img/lettheadventurebegin.jpg'
+                  alt='A man hold a cup of snow with the words "The Adventure Begins" on the front of the cup'
+                />
+                <div className='contact-image-background'></div>
+              </AnimationOnScroll>
             </div>
           </div>
           {!emailSent ? (
             <div className='form-container'>
-              <form ref={form} onSubmit={sendEmail}>
-                <input type='text' name='from_name' placeholder='Name' />
-                <input
-                  type='email'
-                  pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'
-                  name='from_email'
-                  placeholder='Email'
-                />
-                <textarea name='message' placeholder='Message' />
-                <input className='send-button' type='submit' value='Send' />
-              </form>
-            </div>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input type='text' name='from_name' placeholder='Name' />
+                  <input
+                    type='email'
+                    pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'
+                    name='from_email'
+                    placeholder='Email'
+                  />
+                  <textarea name='message' placeholder='Message' />
+                  <input className='send-button' type='submit' value='Send' />
+                </form>
+              </div>
           ) : (
             <ContactConfirmation />
-          )}
+            )}
         </div>
       </div>
     </>
