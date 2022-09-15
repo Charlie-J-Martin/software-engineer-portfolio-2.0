@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PuffLoader from 'react-spinners/PuffLoader';
 import Home from '../pages';
-import PageNotFound from './404-page';
+import PageNotFound from './404/404-page';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 const override = {

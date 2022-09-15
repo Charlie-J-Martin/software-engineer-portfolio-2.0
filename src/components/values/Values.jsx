@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from './Card';
-import Subheading from './Subheading';
+import Subheading from '../subheading/Subheading';
 import SwiperCore, { EffectCoverflow, Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
-import { data } from '../data/valuesData';
+import { data } from '../../data/valuesData';
+import './values.css';
 
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 

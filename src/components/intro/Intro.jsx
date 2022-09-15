@@ -1,7 +1,8 @@
 import React from 'react';
 import 'animate.css';
-import Subheading from './Subheading';
-import { techData } from '../data/techData';
+import Subheading from '../subheading/Subheading';
+import { techData } from '../../data/techData';
+import './intro.css';
 
 const intro = () => {
   return (
