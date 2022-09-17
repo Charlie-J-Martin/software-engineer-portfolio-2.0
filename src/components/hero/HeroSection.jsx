@@ -12,7 +12,7 @@ const HeroSection = () => {
             autoPlay
             loop
             muted
-            src='/vid/video.mp4'
+            src='vid/video.mp4'
             type='video/mp4'
             alt='Star video loop'
           ></video>
@@ -42,7 +42,7 @@ const HeroSection = () => {
             <div className='hero-image-container'>
               <img
                 className='hero-image'
-                src='/img/profile.jpeg'
+                src='img/profile.jpeg'
                 alt='A man standing with dark hair'
               />
               <div className='hero-image-background'></div>

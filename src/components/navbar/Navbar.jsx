@@ -15,7 +15,7 @@ const Navbar = ({ toggle }) => {
           <div className='nav-logo' onClick={toggleHome}>
               <img
                 className='logo'
-                src='/img/logo.png'
+                src='img/logo.png'
                 alt='A hexagonal logo with the initials CM with a Git merge symbol placed above the letters'
               />
           </div>

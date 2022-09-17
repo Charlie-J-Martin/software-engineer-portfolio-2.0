@@ -5,7 +5,7 @@ export const projectsData = [
     github: 'https://github.com/Charlie-J-Martin',
     liveWebsite: 'https://www.formula1.com/',
     technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
-    projectImage: '/img/myProjects/formula-1.jpg',
+    projectImage: 'img/myProjects/formula-1.jpg',
     projectImageAltTag: 'Red Bull formula 1 car racing in Silverstone',
   },
   {
@@ -14,7 +14,7 @@ export const projectsData = [
     github: 'https://github.com/Charlie-J-Martin',
     liveWebsite: 'https://www.formula1.com/',
     technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
-    projectImage: '/img/myProjects/amazon.jpg',
+    projectImage: 'img/myProjects/amazon.jpg',
     projectImageAltTag: 'Two Amazon delivery boxes on a table',
   },
   {
@@ -23,7 +23,7 @@ export const projectsData = [
     github: 'https://github.com/Charlie-J-Martin',
     liveWebsite: 'https://www.formula1.com/',
     technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
-    projectImage: '/img/myProjects/order-up.jpg',
+    projectImage: 'img/myProjects/order-up.jpg',
     projectImageAltTag: 'A chef holding a plate of food',
   },
   {
@@ -32,7 +32,7 @@ export const projectsData = [
     github: 'https://github.com/Charlie-J-Martin',
     liveWebsite: 'https://www.formula1.com/',
     technologiesUsed: ['TypeScript', 'React', 'NodeJS', 'GraphQL'],
-    projectImage: '/img/myProjects/my-cocktail-bar.jpg',
+    projectImage: 'img/myProjects/my-cocktail-bar.jpg',
     projectImageAltTag: 'A bartender pouring a shot of whiskey',
   },
 ];

@@ -30,7 +30,7 @@ const Footer = () => {
           >
             <img
               className='social-logo'
-              src='/img/github.svg'
+              src='img/github.svg'
               alt='The Github logo'
             />
           </a>
@@ -41,7 +41,7 @@ const Footer = () => {
           >
             <img
               className='social-logo'
-              src='/img/linkedin.svg'
+              src='img/linkedin.svg'
               alt='The LinkedIn logo'
             />
           </a>

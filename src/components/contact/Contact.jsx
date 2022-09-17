@@ -58,7 +58,7 @@ const Contact = () => {
               >
                 <img
                   className='contact-image'
-                  src='/img/lettheadventurebegin.jpg'
+                  src='img/lettheadventurebegin.jpg'
                   alt='A man hold a cup of snow with the words "The Adventure Begins" on the front of the cup'
                 />
                 <div className='contact-image-background'></div>
