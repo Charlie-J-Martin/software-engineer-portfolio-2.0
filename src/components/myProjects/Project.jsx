@@ -19,14 +19,14 @@ export const Project = (props) => {
               <a href={props.github} target='_blank' rel='noreferrer'>
                 <img
                   className='project-link-icons github'
-                  src='/img/github.svg'
+                  src='img/github.svg'
                   alt='The Github logo'
                 />
               </a>
               <a href={props.liveWebsite} target='_blank' rel='noreferrer'>
                 <img
                   className='project-link-icons link'
-                  src='/img/link.svg'
+                  src='img/link.svg'
                   alt='A chain link logo representing a external link'
                 ></img>
               </a>

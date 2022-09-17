@@ -7,8 +7,8 @@ const PageNotFound = () => {
   return (
     <>
       <picture>
-        <source media='(min-width: 1024px)' srcset={'/img/404-web.jpg'} />
-        <img className='page-not-found-image' src='/img/404.jpg' />
+        <source media='(min-width: 1024px)' srcset={'img/404-web.jpg'} />
+        <img className='page-not-found-image' src='img/404.jpg' />
       </picture>
       <div className='page-not-found-container'>
         <div className='page-not-found-text-container'>
@@ -19,7 +19,7 @@ const PageNotFound = () => {
             We can't seem to find the page you're looking for!
           </h3>
           <div>
-            <Link to='/'>
+            <Link to='/software-engineer-portfolio-2.0'>
               <button type='button' className='button-41'>
                 Go back home!
               </button>

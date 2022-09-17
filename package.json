@@ -2,7 +2,7 @@
   "name": "software-engineer-portfolio-2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{Charlie-J-Martin}.github.io",
+  "homepage": "https://{charlie-j-martin}.github.io/software-engineer-portfolio-2.0/",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
