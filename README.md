@@ -9,3 +9,7 @@ A few things to note are that I in no way am a UX designer or front-end expert. 
 - CSS
 - HTML
 - EmailJS
+
+## Links to other projects
+- Football Transfers API ()[]
+- Creatures Simulation ()[]
