@@ -26,7 +26,7 @@ function App() {
     <div className='App'>
       {loading ? (
         <>
-          <img src='img/logo.png' alt='CM Logo' className='loader-image' />
+          <img src='img/load-logo.png' alt='CM Logo' className='loader-image' />
           <PuffLoader
             color={'#01bf71'}
             loading={loading}
