@@ -24,7 +24,9 @@ const Footer = () => {
         <h4>Charlie Martin Production &copy; {currentYear}</h4>
         <div className='socials-container'>
           <a
-            href={'https://github.com/Charlie-J-Martin/'}
+            href={
+              'https://github.com/Charlie-J-Martin/software-engineer-portfolio-2.0'
+            }
             target='_blank'
             rel='noreferrer'
           >
