@@ -2,7 +2,7 @@ import React from 'react';
 import Subheading from '../subheading/Subheading';
 import { Project } from './Project';
 import { projectsData } from '../../data/projectsData';
-import './projects.css'
+import './projects.css';
 
 function createProject(project) {
   return (
@@ -11,7 +11,8 @@ function createProject(project) {
       listId={project.id}
       projectImage={project.projectImage}
       name={project.name}
-      description={project.description}
+      descriptionIntro={project.descriptionIntro}
+      descriptionAdditional={project.descriptionAdditional}
       github={project.github}
       liveWebsite={project.liveWebsite}
       technologiesUsed={project.technologiesUsed}
