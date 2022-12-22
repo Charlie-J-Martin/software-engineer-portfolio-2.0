@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/software-engineer-portfolio-2.0/static/css/main.0f67850d.css",
+    "main.css": "/software-engineer-portfolio-2.0/static/css/main.9e6fb9f7.css",
     "main.js": "/software-engineer-portfolio-2.0/static/js/main.bbb60957.js",
     "index.html": "/software-engineer-portfolio-2.0/index.html",
-    "main.0f67850d.css.map": "/software-engineer-portfolio-2.0/static/css/main.0f67850d.css.map",
+    "main.9e6fb9f7.css.map": "/software-engineer-portfolio-2.0/static/css/main.9e6fb9f7.css.map",
     "main.bbb60957.js.map": "/software-engineer-portfolio-2.0/static/js/main.bbb60957.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f67850d.css",
+    "static/css/main.9e6fb9f7.css",
     "static/js/main.bbb60957.js"
   ]
 }
