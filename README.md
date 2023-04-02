@@ -1,5 +1,5 @@
 # Introduction
-Welcome to my software engineering portfolio GitHub repo! My name is [your name], and I'm a backend engineer with [number of years] of experience in the industry. As a passionate developer, I have created several projects that I am proud of and wanted to showcase them in one place.
+Welcome to my software engineering portfolio GitHub repo! My name is Charlie, and I'm a backend engineer with 3 years of experience in the industry. As a passionate developer, I have created several projects that I am proud of and wanted to showcase them in one place.
 
 # About the Portfolio Website
 As a backend engineer, I am more interested in the functionality and performance of the projects I work on. However, I realize the importance of having a portfolio website to showcase my work to potential employers and clients. Therefore, I decided to create a portfolio website that highlights some of the backend-related projects I've worked on.
