@@ -12,7 +12,7 @@ The portfolio website was built using the following technologies:
 React: I chose React because it's a popular and powerful front-end framework that allows me to create reusable components and efficiently manage the state of the application.
 JavaScript: I used JavaScript for both the front-end and back-end logic of the application.
 CSS: I used CSS to style the website and make it more visually appealing.
-HTML: I used HTML to create the structure and layout of the website.
+HTML: HTML to create the structure and layout of the website.
 EmailJS: I used EmailJS to handle the contact form on the website. It allows users to send me a message without revealing my email address.
 
 # How to Use This Repo
